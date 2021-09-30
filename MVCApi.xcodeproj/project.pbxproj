@@ -18,6 +18,8 @@
 		398057F92704A07400A1B9A6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398057F82704A07400A1B9A6 /* Model.swift */; };
 		398057FB2704A20C00A1B9A6 /* DataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398057FA2704A20C00A1B9A6 /* DataCell.swift */; };
 		398057FD2704A8C200A1B9A6 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398057FC2704A8C200A1B9A6 /* HTTPClient.swift */; };
+		39B30ADD270552F200ECDA4E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B30ADC270552F100ECDA4E /* DetailVC.swift */; };
+		39B30ADF2705542D00ECDA4E /* DataDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B30ADE2705542D00ECDA4E /* DataDetailCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		398057F82704A07400A1B9A6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		398057FA2704A20C00A1B9A6 /* DataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCell.swift; sourceTree = "<group>"; };
 		398057FC2704A8C200A1B9A6 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		39B30ADC270552F100ECDA4E /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		39B30ADE2705542D00ECDA4E /* DataDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataDetailCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				398057F627049FF600A1B9A6 /* HomeVC.swift */,
+				39B30ADC270552F100ECDA4E /* DetailVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				398057FA2704A20C00A1B9A6 /* DataCell.swift */,
+				39B30ADE2705542D00ECDA4E /* DataDetailCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,8 +305,10 @@
 				398057C327049F0D00A1B9A6 /* AppDelegate.swift in Sources */,
 				398057FD2704A8C200A1B9A6 /* HTTPClient.swift in Sources */,
 				398057C527049F0D00A1B9A6 /* SceneDelegate.swift in Sources */,
+				39B30ADF2705542D00ECDA4E /* DataDetailCell.swift in Sources */,
 				398057FB2704A20C00A1B9A6 /* DataCell.swift in Sources */,
 				398057F92704A07400A1B9A6 /* Model.swift in Sources */,
+				39B30ADD270552F200ECDA4E /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,6 +29,7 @@ class HomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.prefersLargeTitles = true
+        tableView.separatorColor = .black
         self.title = "Contacts"
         setupView()
         self.indiatorView.startAnimating()
@@ -78,6 +79,11 @@ extension HomeVC: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detailVC = DetailVC(with: list[indexPath.row])
+        navigationController?.pushViewController(detailVC, animated: true)
     }
 }
 
